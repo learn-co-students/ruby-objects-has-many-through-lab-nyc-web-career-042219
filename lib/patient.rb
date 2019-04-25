@@ -7,6 +7,7 @@ class Patient
     @name = name
     @appointments = []
     @doctors = []
+    
     @@all << self
   end
 
