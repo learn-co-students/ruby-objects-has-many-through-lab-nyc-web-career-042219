@@ -63,7 +63,7 @@ Now let's move on to our `Doctor`/`Appointment`/`Patient` domain model.
 
 **The `Doctor` model:**
 
-- The `Doctor` class needs a class variable `@@all` that begins as an empty array.
+<!-- - The `Doctor` class needs a class variable `@@all` that begins as an empty array.
 - The `Doctor` class needs a class method `.all` that lists each doctor in the
   class variable.
 - A doctor should be initialized with a name and be saved in the `@@all` array.
@@ -74,15 +74,15 @@ Now let's move on to our `Doctor`/`Appointment`/`Patient` domain model.
   through all `Appointment`s and finds those belonging to this doctor.
 - The `Doctor` class needs an instance method, `#patients`, that iterates over
   that doctor's `Appointment`s and collects the patient that belongs to each
-  `Appointment`s.
+  `Appointment`s. -->
 
 **The `Appointment` model:**
 
-- The `Appointment` class needs a class variable `@@all` that begins as an empty array.
+<!-- - The `Appointment` class needs a class variable `@@all` that begins as an empty array.
 - The `Appointment` class needs a class method `.all` that lists each `Appointment`
   in the class variable.
 - An `Appointment` should be initialized with a date (as a string, like `"Monday, August 1st"`), a patient, and a doctor. The `Appointment` should be saved in the
-  `@@all` array.
+  `@@all` array. -->
 
 **The `Patient` model:**
 
